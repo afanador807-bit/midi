@@ -1,0 +1,84 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Guía interactiva para decidir, ejecutar e interpretar análisis estadísticos en investigación cuantitativa en salud, con datos ficticios.">
+<meta name="theme-color" content="#001282">
+<title>Estadística en salud | Guía interactiva</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="back-link" href="../index.html">← Página personal</a>
+    <span class="status-tag"><span class="status-dot" aria-hidden="true"></span> Guía interactiva · 10 rutas con tutoriales</span>
+  </div>
+</header>
+<main id="contenido">
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Herramienta pedagógica para ciencias de la salud</p>
+      <h1>Estadística en salud</h1>
+      <p class="hero-lead">Aprende a conectar tu pregunta, el diseño y la forma de tus datos con un análisis estadístico concreto. Recorre un módulo y practica el análisis con datos inventados.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#modulos">Explorar los módulos</a>
+        <a class="text-link" href="#piloto">Ir al módulo piloto T1</a>
+      </div>
+      <div class="hero-facts" aria-label="Características de la guía">
+        <div><strong>10</strong><span>rutas metodológicas</span></div>
+        <div><strong>12</strong><span>secciones por temática</span></div>
+        <div><strong>0</strong><span>datos de pacientes reales</span></div>
+      </div>
+    </div>
+    <div class="hero-mark" aria-hidden="true"><span>ESTADÍSTICA</span><b>↗</b><span>EN SALUD</span></div>
+  </section>
+
+  <section class="notice-bar wrap" aria-label="Nota sobre los datos"><span class="notice-icon" aria-hidden="true">i</span><p>Todos los registros son <b>ficticios y reproducibles</b>. Sirven para aprender a analizar datos; no describen pacientes ni deben usarse para tomar decisiones clínicas.</p></section>
+
+  <section class="section wrap" id="recorrido">
+    <div class="section-heading"><div><p class="eyebrow">Una secuencia para todos los temas</p><h2>De la pregunta al resultado</h2></div><p class="section-intro">Primero se entiende el estudio y sus datos. Luego se justifica el análisis y se aprende a comunicar lo que puede concluirse.</p></div>
+    <ol class="learning-sequence">
+      <li><span class="sequence-num">01</span><b>Pregunta y población</b><span>Define qué quieres describir, relacionar o comparar.</span></li>
+      <li><span class="sequence-num">02</span><b>Diseño y tiempos</b><span>Reconoce cómo se eligieron los grupos y cuándo se midió.</span></li>
+      <li><span class="sequence-num">03</span><b>Variables y datos</b><span>Revisa escala, unidades, identificadores y faltantes.</span></li>
+      <li><span class="sequence-num">04</span><b>Análisis y lectura</b><span>Elige el procedimiento y localiza la salida que responde.</span></li>
+      <li><span class="sequence-num">05</span><b>Comunicación y límites</b><span>Informa estimación, incertidumbre y alcance del diseño.</span></li>
+    </ol>
+  </section>
+
+  <section class="section section-tinted" id="modulos">
+    <div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow">Selecciona una pregunta</p><h2>Explora las diez temáticas</h2></div><p class="section-intro">Cada ruta verifica que la pregunta y la estructura de los datos correspondan al módulo. Si una decisión no encaja, la guía explica por qué y te deja revisar tu respuesta.</p></div>
+      <div class="module-grid" id="moduleGrid" aria-label="Módulos estadísticos"></div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="piloto">
+    <div class="section-heading"><div><p class="eyebrow">Guía interactiva · 12 secciones</p><h2>Explora un módulo</h2></div><p class="section-intro">Cada tema ofrece caso, criterios de elección, árbol de cuatro preguntas, análisis recomendado, pasos para SPSS y jamovi, lectura de resultados, comunicación y limitaciones metodológicas específicas. Todas las rutas cuentan con bases sintéticas para practicar.</p></div>
+    <div class="workbench" id="workbench">
+      <aside class="module-summary" id="moduleSummary" aria-live="polite"></aside>
+      <div class="module-workspace">
+        <div class="module-tabs" id="moduleTabs" role="tablist" aria-label="Secciones de la temática"></div>
+        <article class="module-content" id="moduleContent" role="tabpanel" tabindex="0"></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tinted" id="criterios">
+    <div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow">Criterios de lectura</p><h2>La estadística responde a una pregunta</h2></div><p class="section-intro">Una prueba no reemplaza el razonamiento sobre el diseño, la medición y el sentido clínico del desenlace.</p></div>
+      <div class="principle-grid">
+        <article class="principle-card"><span class="principle-icon">01</span><h3>Medidas distintas, diseños distintos</h3><p>RR se enseña en cohortes con seguimiento comparable. OR se aborda en casos y controles o como razón de momios de prevalencia. HR corresponde a modelos de tiempo hasta el evento.</p></article>
+        <article class="principle-card"><span class="principle-icon">02</span><h3>Grupos no son colas</h3><p>Una hipótesis bilateral o unilateral describe la dirección del contraste. Dos o tres brazos describen cuántos grupos se comparan. Son decisiones separadas.</p></article>
+        <article class="principle-card"><span class="principle-icon">03</span><h3>Antes y después requiere cuidado</h3><p>Comparar dos resultados dentro de cada grupo no demuestra que el cambio difiera entre grupos. Con intervención y control medidos en varios tiempos se modela el contraste entre grupos y tiempos.</p></article>
+        <article class="principle-card"><span class="principle-icon">04</span><h3>La incertidumbre acompaña al valor p</h3><p>Se priorizan magnitud e intervalo de confianza. No rechazar la hipótesis nula no demuestra ausencia de efecto; la interpretación también considera precisión y relevancia clínica.</p></article>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="wrap footer-inner"><div><b>Estadística en salud</b><p>Guía pedagógica en desarrollo para aprender análisis cuantitativos con escenarios simulados.</p></div><div class="footer-links"><a href="../index.html">Volver a la página personal</a><a href="https://docs.jamovi.org/analyses/jg_overview.html" target="_blank" rel="noopener">Documentación oficial de jamovi ↗</a></div></div></footer>
+<script src="app.js" defer></script>
+</body>
+</html>
